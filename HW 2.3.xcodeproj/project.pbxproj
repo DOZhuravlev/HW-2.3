@@ -13,6 +13,7 @@
 		290EEFCC27FB0F89004281C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290EEFCA27FB0F89004281C5 /* Main.storyboard */; };
 		290EEFCE27FB0F8A004281C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EEFCD27FB0F8A004281C5 /* Assets.xcassets */; };
 		290EEFD127FB0F8A004281C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290EEFCF27FB0F8A004281C5 /* LaunchScreen.storyboard */; };
+		296B720C27FC64F1009FB1CE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296B720B27FC64F1009FB1CE /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		290EEFCD27FB0F8A004281C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290EEFD027FB0F8A004281C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290EEFD227FB0F8A004281C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296B720B27FC64F1009FB1CE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				290EEFC627FB0F89004281C5 /* SceneDelegate.swift */,
 				290EEFC827FB0F89004281C5 /* ViewController.swift */,
 				290EEFCA27FB0F89004281C5 /* Main.storyboard */,
+				296B720B27FC64F1009FB1CE /* WelcomeViewController.swift */,
 				290EEFCD27FB0F8A004281C5 /* Assets.xcassets */,
 				290EEFCF27FB0F8A004281C5 /* LaunchScreen.storyboard */,
 				290EEFD227FB0F8A004281C5 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296B720C27FC64F1009FB1CE /* WelcomeViewController.swift in Sources */,
 				290EEFC927FB0F89004281C5 /* ViewController.swift in Sources */,
 				290EEFC527FB0F89004281C5 /* AppDelegate.swift in Sources */,
 				290EEFC727FB0F89004281C5 /* SceneDelegate.swift in Sources */,
