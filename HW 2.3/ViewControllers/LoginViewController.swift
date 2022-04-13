@@ -14,10 +14,31 @@ class LoginViewController: UIViewController {
     private let login = "User"
     private let password = "Password"
     
+    private let user = User.getUser()
+    
+    //user.login = "d"
+    
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let logInVC = segue.destination as? WelcomeViewController else { return }
-        logInVC.userNameInLabel = userNameValueTF.text
-    }
+        //guard let logInVC = segue.destination as? WelcomeViewController else { return }
+        let wvc = segue.destination as! UITabBarController
+        wvc.selectedIndex = 0
+        
+      //  for viewController in viewControllers {
+      //      if let logInVC = viewController as? WelcomeViewController {
+                
+    //        }
+        //}
+        
+        
+        
+        
+        
+        
+        
+        //logInVC.userNameInLabel = userNameValueTF.text
+   }
     
     @IBAction func logInPressedButton() {
         if userNameValueTF.text == "\(login)" && passwordValueTF.text == "\(password)" {
@@ -65,7 +86,6 @@ extension LoginViewController: UITextFieldDelegate {
             passwordValueTF.becomeFirstResponder()
         } else {
             logInPressedButton()
-            performSegue(withIdentifier: "goToLogInViewController", sender: nil)
         }
         return true
     }
