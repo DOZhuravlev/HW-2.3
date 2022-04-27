@@ -10,38 +10,17 @@ import UIKit
 class LoginViewController: UIViewController {
     @IBOutlet weak var userNameValueTF: UITextField!
     @IBOutlet weak var passwordValueTF: UITextField!
+    @IBOutlet weak var startLoginImage: UIImageView!
     
-    private let login = "User"
-    private let password = "Password"
+    let users = User.getUsers()
     
-    private let user = User.getUser()
-    
-    //user.login = "d"
-    
-    
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //guard let logInVC = segue.destination as? WelcomeViewController else { return }
-        let wvc = segue.destination as! UITabBarController
-        wvc.selectedIndex = 0
-        
-      //  for viewController in viewControllers {
-      //      if let logInVC = viewController as? WelcomeViewController {
-                
-    //        }
-        //}
-        
-        
-        
-        
-        
-        
-        
-        //logInVC.userNameInLabel = userNameValueTF.text
-   }
+    override func viewDidLoad() {
+        startLoginImage.image = UIImage(named: users.people.image[4])
+        startLoginImage.layer.cornerRadius = startLoginImage.frame.width / 2
+    }
     
     @IBAction func logInPressedButton() {
-        if userNameValueTF.text == "\(login)" && passwordValueTF.text == "\(password)" {
+        if userNameValueTF.text == "\(users.username)" && passwordValueTF.text == "\(users.password)" {
             performSegue(withIdentifier: "goToLogInViewController", sender: nil)
         } else {
             showAlert(with: "Ошибка!", and: "Неверный Логин и/или Пароль!")
@@ -49,18 +28,18 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func forgotUserNamePressedButton() {
-        showAlert(with: "Забыли логин?", and: "Ваш логин - \(login)")
+        showAlert(with: "Забыли логин?", and: "Ваш логин - \(users.username)")
         
     }
     @IBAction func forgotPasswordPressedButton() {
-        showAlert(with: "Забыли пароль?", and: "Ваш пароль - \(password)")
+        showAlert(with: "Забыли пароль?", and: "Ваш пароль - \(users.password)")
     }
-    
     
     @IBAction func unwind(for segue: UIStoryboardSegue) {
         userNameValueTF.text = ""
         passwordValueTF.text = ""
     }
+    
 }
 
 extension LoginViewController {
@@ -91,5 +70,27 @@ extension LoginViewController: UITextFieldDelegate {
     }
 }
 
-    
+extension LoginViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let tabBarController = segue.destination as? UITabBarController else { return }
+        guard let viewControllers = tabBarController.viewControllers else { return }
+        
+        for viewController in viewControllers {
+            if let welcomeVC = viewController as? WelcomeViewController {
+                welcomeVC.users = users
+            } else if let navigationVC = viewController as? UINavigationController {
+                guard  let aboutTeamVC = navigationVC.topViewController as? AboutTeamViewController else { return }
+                aboutTeamVC.user = users
+                guard let tournamentVC = navigationVC.topViewController as? tournamentViewController else { return }
+                tournamentVC.user = users
+                guard  let peopleTeamVC = navigationVC.topViewController as? peopleTeamViewController else { return }
+                peopleTeamVC.user = users
+                guard let registarationOnTraninigVC = navigationVC.topViewController as? registrationOnTraningViewController else { return }
+                registarationOnTraninigVC.user = users
+            }
+        }
+    }
+}
+
+
 
