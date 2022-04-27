@@ -24,13 +24,13 @@ class AboutTeamViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let danVC = segue.destination as? danViewController{
+        if let danVC = segue.destination as? DanViewController{
             danVC.user = user
-        } else if let kukaVC = segue.destination as? kukaViewController {
+        } else if let kukaVC = segue.destination as? KukaViewController {
             kukaVC.user = user
-        } else if let egaVC = segue.destination as? egaViewController {
+        } else if let egaVC = segue.destination as? EgaViewController {
             egaVC.user = user
-        } else if let belyakVC = segue.destination as? belyakViewController {
+        } else if let belyakVC = segue.destination as? BelyakViewController {
             belyakVC.user = user
         }
     }

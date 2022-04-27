@@ -6,7 +6,7 @@
 //
 
 import UIKit
-class tournamentViewController: UIViewController {
+class TournamentViewController: UIViewController {
     var user: User!
    
     override func viewDidLoad() {
@@ -15,7 +15,7 @@ class tournamentViewController: UIViewController {
     }
 }
 
-extension tournamentViewController {
+extension TournamentViewController {
     private func setColor(){
         let colorOne = UIColor(red: 9 / 255, green: 40 / 255, blue: 121 / 255, alpha: 0.6).cgColor
         let colorTwo = UIColor(red: 100 / 255, green: 50 / 255, blue: 50 / 255, alpha: 0.6).cgColor

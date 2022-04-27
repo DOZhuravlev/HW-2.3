@@ -194,7 +194,7 @@
         <!--Tournament View Controller-->
         <scene sceneID="1Sm-rg-ESZ">
             <objects>
-                <viewController id="qM7-uT-exb" customClass="tournamentViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qM7-uT-exb" customClass="TournamentViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="izu-lK-yLW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -301,7 +301,7 @@
         <!--Кукарских Иван-->
         <scene sceneID="YLm-i0-6tu">
             <objects>
-                <viewController id="JEA-4u-kUM" customClass="kukaViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JEA-4u-kUM" customClass="KukaViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bYN-Iu-VIb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,7 +343,7 @@
         <!--Денис Габидуллин-->
         <scene sceneID="uo6-8l-0QM">
             <objects>
-                <viewController id="4x3-9d-BYi" customClass="danViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4x3-9d-BYi" customClass="DanViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kah-3j-LUe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -385,7 +385,7 @@
         <!--Химичев Егор-->
         <scene sceneID="Pbs-tU-R3y">
             <objects>
-                <viewController id="uaM-1N-oLS" customClass="egaViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uaM-1N-oLS" customClass="EgaViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gH8-pP-IUF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -427,7 +427,7 @@
         <!--Илья Беляк-->
         <scene sceneID="erF-eA-0F8">
             <objects>
-                <viewController id="MXO-1h-Vps" customClass="belyakViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MXO-1h-Vps" customClass="BelyakViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zPK-bE-b3z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -510,7 +510,7 @@
         <!--People Team View Controller-->
         <scene sceneID="pbl-uH-a4F">
             <objects>
-                <viewController id="x9M-qo-6de" customClass="peopleTeamViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="x9M-qo-6de" customClass="PeopleTeamViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lil-YZ-EmM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -559,7 +559,7 @@
         <!--Registration On Traning View Controller-->
         <scene sceneID="kJd-2X-feR">
             <objects>
-                <viewController id="Sgp-wB-JrN" customClass="registrationOnTraningViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Sgp-wB-JrN" customClass="RegistrationOnTraningViewController" customModule="HW_2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3DP-7E-kvI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

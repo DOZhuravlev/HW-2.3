@@ -15,14 +15,14 @@
 		290EEFD127FB0F8A004281C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290EEFCF27FB0F8A004281C5 /* LaunchScreen.storyboard */; };
 		2969406E27FED0370091D198 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969406D27FED0370091D198 /* User.swift */; };
 		29694071280697890091D198 /* AboutTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29694070280697890091D198 /* AboutTeamViewController.swift */; };
-		29694073280697B50091D198 /* kukaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29694072280697B50091D198 /* kukaViewController.swift */; };
-		2969407528074E160091D198 /* danViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969407428074E160091D198 /* danViewController.swift */; };
-		2969407728074E2F0091D198 /* egaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969407628074E2F0091D198 /* egaViewController.swift */; };
-		2969407928074E420091D198 /* belyakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969407828074E420091D198 /* belyakViewController.swift */; };
+		29694073280697B50091D198 /* KukaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29694072280697B50091D198 /* KukaViewController.swift */; };
+		2969407528074E160091D198 /* DanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969407428074E160091D198 /* DanViewController.swift */; };
+		2969407728074E2F0091D198 /* EgaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969407628074E2F0091D198 /* EgaViewController.swift */; };
+		2969407928074E420091D198 /* BelyakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969407828074E420091D198 /* BelyakViewController.swift */; };
 		296B720C27FC64F1009FB1CE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296B720B27FC64F1009FB1CE /* WelcomeViewController.swift */; };
-		299C0780281302B9004D0651 /* tournamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C077F281302B9004D0651 /* tournamentViewController.swift */; };
-		299C0782281303EE004D0651 /* peopleTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C0781281303EE004D0651 /* peopleTeamViewController.swift */; };
-		299C07842813042B004D0651 /* registrationOnTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C07832813042B004D0651 /* registrationOnTraining.swift */; };
+		299C0780281302B9004D0651 /* TournamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C077F281302B9004D0651 /* TournamentViewController.swift */; };
+		299C0782281303EE004D0651 /* PeopleTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C0781281303EE004D0651 /* PeopleTeamViewController.swift */; };
+		299C07842813042B004D0651 /* RegistrationOnTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C07832813042B004D0651 /* RegistrationOnTraining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,14 +36,14 @@
 		290EEFD227FB0F8A004281C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2969406D27FED0370091D198 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		29694070280697890091D198 /* AboutTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTeamViewController.swift; sourceTree = "<group>"; };
-		29694072280697B50091D198 /* kukaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kukaViewController.swift; sourceTree = "<group>"; };
-		2969407428074E160091D198 /* danViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = danViewController.swift; sourceTree = "<group>"; };
-		2969407628074E2F0091D198 /* egaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egaViewController.swift; sourceTree = "<group>"; };
-		2969407828074E420091D198 /* belyakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belyakViewController.swift; sourceTree = "<group>"; };
+		29694072280697B50091D198 /* KukaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KukaViewController.swift; sourceTree = "<group>"; };
+		2969407428074E160091D198 /* DanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanViewController.swift; sourceTree = "<group>"; };
+		2969407628074E2F0091D198 /* EgaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgaViewController.swift; sourceTree = "<group>"; };
+		2969407828074E420091D198 /* BelyakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelyakViewController.swift; sourceTree = "<group>"; };
 		296B720B27FC64F1009FB1CE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		299C077F281302B9004D0651 /* tournamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tournamentViewController.swift; sourceTree = "<group>"; };
-		299C0781281303EE004D0651 /* peopleTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peopleTeamViewController.swift; sourceTree = "<group>"; };
-		299C07832813042B004D0651 /* registrationOnTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrationOnTraining.swift; sourceTree = "<group>"; };
+		299C077F281302B9004D0651 /* TournamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentViewController.swift; sourceTree = "<group>"; };
+		299C0781281303EE004D0651 /* PeopleTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTeamViewController.swift; sourceTree = "<group>"; };
+		299C07832813042B004D0651 /* RegistrationOnTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationOnTraining.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,13 +91,13 @@
 				290EEFC827FB0F89004281C5 /* LoginViewController.swift */,
 				296B720B27FC64F1009FB1CE /* WelcomeViewController.swift */,
 				29694070280697890091D198 /* AboutTeamViewController.swift */,
-				29694072280697B50091D198 /* kukaViewController.swift */,
-				2969407428074E160091D198 /* danViewController.swift */,
-				2969407628074E2F0091D198 /* egaViewController.swift */,
-				299C077F281302B9004D0651 /* tournamentViewController.swift */,
-				299C0781281303EE004D0651 /* peopleTeamViewController.swift */,
-				2969407828074E420091D198 /* belyakViewController.swift */,
-				299C07832813042B004D0651 /* registrationOnTraining.swift */,
+				29694072280697B50091D198 /* KukaViewController.swift */,
+				2969407428074E160091D198 /* DanViewController.swift */,
+				2969407628074E2F0091D198 /* EgaViewController.swift */,
+				299C077F281302B9004D0651 /* TournamentViewController.swift */,
+				299C0781281303EE004D0651 /* PeopleTeamViewController.swift */,
+				2969407828074E420091D198 /* BelyakViewController.swift */,
+				299C07832813042B004D0651 /* RegistrationOnTraining.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -207,17 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2969407928074E420091D198 /* belyakViewController.swift in Sources */,
-				299C0780281302B9004D0651 /* tournamentViewController.swift in Sources */,
+				2969407928074E420091D198 /* BelyakViewController.swift in Sources */,
+				299C0780281302B9004D0651 /* TournamentViewController.swift in Sources */,
 				296B720C27FC64F1009FB1CE /* WelcomeViewController.swift in Sources */,
 				29694071280697890091D198 /* AboutTeamViewController.swift in Sources */,
 				290EEFC927FB0F89004281C5 /* LoginViewController.swift in Sources */,
 				290EEFC527FB0F89004281C5 /* AppDelegate.swift in Sources */,
-				299C07842813042B004D0651 /* registrationOnTraining.swift in Sources */,
-				2969407528074E160091D198 /* danViewController.swift in Sources */,
-				29694073280697B50091D198 /* kukaViewController.swift in Sources */,
-				299C0782281303EE004D0651 /* peopleTeamViewController.swift in Sources */,
-				2969407728074E2F0091D198 /* egaViewController.swift in Sources */,
+				299C07842813042B004D0651 /* RegistrationOnTraining.swift in Sources */,
+				2969407528074E160091D198 /* DanViewController.swift in Sources */,
+				29694073280697B50091D198 /* KukaViewController.swift in Sources */,
+				299C0782281303EE004D0651 /* PeopleTeamViewController.swift in Sources */,
+				2969407728074E2F0091D198 /* EgaViewController.swift in Sources */,
 				2969406E27FED0370091D198 /* User.swift in Sources */,
 				290EEFC727FB0F89004281C5 /* SceneDelegate.swift in Sources */,
 			);

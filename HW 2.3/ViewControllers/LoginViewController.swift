@@ -81,11 +81,11 @@ extension LoginViewController {
             } else if let navigationVC = viewController as? UINavigationController {
                 guard  let aboutTeamVC = navigationVC.topViewController as? AboutTeamViewController else { return }
                 aboutTeamVC.user = users
-                guard let tournamentVC = navigationVC.topViewController as? tournamentViewController else { return }
+                guard let tournamentVC = navigationVC.topViewController as? TournamentViewController else { return }
                 tournamentVC.user = users
-                guard  let peopleTeamVC = navigationVC.topViewController as? peopleTeamViewController else { return }
+                guard  let peopleTeamVC = navigationVC.topViewController as? PeopleTeamViewController else { return }
                 peopleTeamVC.user = users
-                guard let registarationOnTraninigVC = navigationVC.topViewController as? registrationOnTraningViewController else { return }
+                guard let registarationOnTraninigVC = navigationVC.topViewController as? RegistrationOnTraningViewController else { return }
                 registarationOnTraninigVC.user = users
             }
         }

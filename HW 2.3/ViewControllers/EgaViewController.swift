@@ -7,7 +7,7 @@
 
 import UIKit
 
-class egaViewController: UIViewController {
+class EgaViewController: UIViewController {
     @IBOutlet weak var egaImageView: UIImageView!
     @IBOutlet weak var aboutEgaLabel: UILabel!
     
@@ -29,7 +29,7 @@ class egaViewController: UIViewController {
     }
     }
 
-extension egaViewController {
+extension EgaViewController {
     
     private func setColor(){
         let colorOne = UIColor(red: 9 / 255, green: 40 / 255, blue: 121 / 255, alpha: 0.6).cgColor

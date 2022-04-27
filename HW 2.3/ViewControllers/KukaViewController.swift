@@ -7,7 +7,7 @@
 
 import UIKit
 
-class kukaViewController: UIViewController {
+class KukaViewController: UIViewController {
     
     @IBOutlet weak var aboutKukaLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
@@ -30,7 +30,7 @@ class kukaViewController: UIViewController {
     }
 }
 
-extension kukaViewController {
+extension KukaViewController {
     private func setColor(){
         let colorOne = UIColor(red: 9 / 255, green: 40 / 255, blue: 121 / 255, alpha: 0.6).cgColor
         let colorTwo = UIColor(red: 100 / 255, green: 50 / 255, blue: 50 / 255, alpha: 0.6).cgColor
